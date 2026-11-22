@@ -1,4 +1,4 @@
-def find_and_add(text, add_numb = 10):
+def find_and_add(text, add_numb=10):
     text_index = text.index(':') + 1
     return int(text[text_index:]) + add_numb
 
